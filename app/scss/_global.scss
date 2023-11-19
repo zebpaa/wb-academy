@@ -1,0 +1,41 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Segoe UI";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  font-style: normal;
+  overflow-x: hidden;
+  min-width: 320px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  max-width: 1448px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+    max-width: 1968px;
+    margin: 0 auto;
+    padding: 0 24px;
+    &__section {
+      max-width: 1968px;
+      padding: 0 24px;
+    }
+  }
